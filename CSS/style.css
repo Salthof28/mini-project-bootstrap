@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(221, 221, 221);
+}
+.nav-gambar {
+    background-image: url(../Assets/nav-img.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+.sticky {
+    position: sticky;
+    top: 0;   
+}
+.gambar-museum {
+    background-image: url(../Assets/jakartas-landmark.jpg);
+    height: 52em;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gambar-pahlawan {
+    background-image: url(../Assets/Gambar\ Pahlawan.jpg);
+    height: 420px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#title-head {
+    font-weight: 100;
+    font-size: 4rem;
+}
